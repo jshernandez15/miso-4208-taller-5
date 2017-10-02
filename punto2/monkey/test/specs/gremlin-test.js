@@ -4,7 +4,44 @@ function unleashGremlins(ttl, callback) {
         horde.stop();
         callback();
     }
-    var horde = window.gremlins.createHorde();
+    var horde = window.gremlins.createHorde()
+        .before(function (done) {
+            var horde = this;
+            setTimeout(function () {
+                horde.log('async');
+                done();
+            }, 500);
+        })
+        .before(function () {
+            this.log('sync');
+        })
+        /**
+         * Modifique la especie que llena formularios para que solo intente actuar sobre elementos que se pueden llenar.
+         */
+        .gremlin(gremlins.species.formFiller())
+        /**
+         * Modifique la especie que realiza clicks para que solo haga clicks sobre botones o links
+         */
+        .gremlin(function () {
+            $("button").click();
+            console.log("custom gremlin click submit");
+        })
+        .gremlin(function () {
+            $("a").click();
+            console.log("custom gremlin click submit");
+        })
+        /**
+         * Cambie la distribucíon para darle prioridad al gremlin que realiza clicks
+         */
+        .strategy(gremlins.strategies.distribution()
+            .delay(50) // wait 50 ms between each action
+            .distribution([0.2, 0.4, 0.4])
+        )
+        .mogwai(gremlins.mogwais.alert())
+        .mogwai(gremlins.mogwais.gizmo().maxErrors(5));
+
+
+
     horde.seed(1234);
     horde.after(callback);
     window.onbeforeunload = stop;
