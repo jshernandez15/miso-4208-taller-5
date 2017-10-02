@@ -1,0 +1,1 @@
+adb -e shell monkey -p com.habitrpg.android.habitica 100000 > test-log-1.txt

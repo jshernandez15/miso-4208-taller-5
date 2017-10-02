@@ -1,0 +1,146 @@
+    // Injection Failed
+    // activityResuming(com.habitrpg.android.habitica)
+    // activityResuming(com.habitrpg.android.habitica)
+    // activityResuming(com.habitrpg.android.habitica)
+    // Injection Failed
+    // Injection Failed
+    // activityResuming(com.habitrpg.android.habitica)
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // activityResuming(com.habitrpg.android.habitica)
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // activityResuming(com.habitrpg.android.habitica)
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // activityResuming(com.habitrpg.android.habitica)
+    // activityResuming(com.habitrpg.android.habitica)
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // activityResuming(com.habitrpg.android.habitica)
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+// CRASH: com.habitrpg.android.habitica (pid 6462)
+// Short Msg: android.content.ActivityNotFoundException
+// Long Msg: android.content.ActivityNotFoundException: No Activity found to handle Intent { act=android.intent.action.VIEW dat=market://details?id=com.habitrpg.android.habitica }
+// Build Label: Android/sdk_google_phone_x86/generic_x86:6.0/MASTER/4212456:userdebug/test-keys
+// Build Changelist: 4212456
+// Build Time: 1500966718000
+// android.content.ActivityNotFoundException: No Activity found to handle Intent { act=android.intent.action.VIEW dat=market://details?id=com.habitrpg.android.habitica }
+// 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1798)
+// 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1512)
+// 	at android.app.Activity.startActivityForResult(Activity.java:3917)
+// 	at android.support.v4.app.BaseFragmentActivityJB.startActivityForResult(BaseFragmentActivityJB.java:50)
+// 	at android.support.v4.app.FragmentActivity.startActivityForResult(FragmentActivity.java:79)
+// 	at android.support.v4.app.ActivityCompatJB.startActivityForResult(ActivityCompatJB.java:30)
+// 	at android.support.v4.app.ActivityCompat.startActivityForResult(ActivityCompat.java:146)
+// 	at android.support.v4.app.FragmentActivity.startActivityFromFragment(FragmentActivity.java:932)
+// 	at android.support.v4.app.FragmentActivity$HostCallbacks.onStartActivityFromFragment(FragmentActivity.java:1047)
+// 	at android.support.v4.app.Fragment.startActivity(Fragment.java:940)
+// 	at android.support.v4.app.Fragment.startActivity(Fragment.java:929)
+// 	at com.habitrpg.android.habitica.ui.fragments.AboutFragment.openGooglePlay(AboutFragment.java:64)
+// 	at com.habitrpg.android.habitica.ui.fragments.AboutFragment_ViewBinding$6.doClick(AboutFragment_ViewBinding.java:81)
+// 	at butterknife.internal.DebouncingOnClickListener.onClick(DebouncingOnClickListener.java:22)
+// 	at android.view.View.performClick(View.java:5198)
+// 	at android.view.View.onKeyUp(View.java:9879)
+// 	at android.widget.TextView.onKeyUp(TextView.java:6194)
+// 	at android.view.KeyEvent.dispatch(KeyEvent.java:2664)
+// 	at android.view.View.dispatchKeyEvent(View.java:9234)
+// 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1640)
+// 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1640)
+// 	at android.support.v4.widget.NestedScrollView.dispatchKeyEvent(NestedScrollView.java:514)
+// 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1640)
+// 	at android.support.v4.view.ViewPager.dispatchKeyEvent(ViewPager.java:2761)
+// 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1640)
+// 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1640)
+// 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1640)
+// 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1640)
+// 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1640)
+// 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1640)
+// 	at com.android.internal.policy.PhoneWindow$DecorView.superDispatchKeyEvent(PhoneWindow.java:2395)
+// 	at com.android.internal.policy.PhoneWindow.superDispatchKeyEvent(PhoneWindow.java:1727)
+// 	at android.app.Activity.dispatchKeyEvent(Activity.java:2725)
+// 	at android.support.v7.app.AppCompatActivity.dispatchKeyEvent(AppCompatActivity.java:541)
+// 	at android.support.v7.view.WindowCallbackWrapper.dispatchKeyEvent(WindowCallbackWrapper.java:59)
+// 	at android.support.v7.app.AppCompatDelegateImplBase$AppCompatWindowCallbackBase.dispatchKeyEvent(AppCompatDelegateImplBase.java:319)
+// 	at com.android.internal.policy.PhoneWindow$DecorView.dispatchKeyEvent(PhoneWindow.java:2310)
+// 	at android.view.ViewRootImpl$ViewPostImeInputStage.processKeyEvent(ViewRootImpl.java:4127)
+// 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:4089)
+// 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3642)
+// 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3695)
+// 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3661)
+// 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3787)
+// 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3669)
+// 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3844)
+// 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3642)
+// 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3695)
+// 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3661)
+// 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3669)
+// 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3642)
+// 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3695)
+// 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3661)
+// 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3820)
+// 	at android.view.ViewRootImpl$ImeInputStage.onFinishedInputEvent(ViewRootImpl.java:3981)
+// 	at android.view.inputmethod.InputMethodManager$PendingEvent.run(InputMethodManager.java:2253)
+// 	at android.view.inputmethod.InputMethodManager.invokeFinishedInputEventCallback(InputMethodManager.java:1874)
+// 	at android.view.inputmethod.InputMethodManager.finishedInputEvent(InputMethodManager.java:1865)
+// 	at android.view.inputmethod.InputMethodManager$ImeInputEventSender.onInputEventFinished(InputMethodManager.java:2230)
+// 	at android.view.InputEventSender.dispatchInputEventFinished(InputEventSender.java:141)
+// 	at android.os.MessageQueue.nativePollOnce(Native Method)
+// 	at android.os.MessageQueue.next(MessageQueue.java:323)
+// 	at android.os.Looper.loop(Looper.java:135)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5417)
+// 	at java.lang.reflect.Method.invoke(Native Method)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+// 
+** Monkey aborted due to error.
+Events injected: 28231
+## Network stats: elapsed time=356524ms (0ms mobile, 0ms wifi, 356524ms not connected)
+** System appears to have crashed at event 28231 of 100000 using seed 5413279366

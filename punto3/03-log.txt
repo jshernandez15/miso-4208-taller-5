@@ -1,0 +1,21 @@
+    // activityResuming(com.habitrpg.android.habitica)
+    // activityResuming(com.habitrpg.android.habitica)
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // activityResuming(com.habitrpg.android.habitica)
+    // Injection Failed
+    // Injection Failed
+    // activityResuming(com.habitrpg.android.habitica)
+    // Injection Failed
+    // Injection Failed
+Events injected: 20000
+## Network stats: elapsed time=320917ms (0ms mobile, 0ms wifi, 320917ms not connected)

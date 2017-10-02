@@ -1,0 +1,39 @@
+    // Injection Failed
+    // Injection Failed
+    // activityResuming(com.habitrpg.android.habitica)
+    // Injection Failed
+// CRASH: com.habitrpg.android.habitica (pid 4463)
+// Short Msg: android.content.ActivityNotFoundException
+// Long Msg: android.content.ActivityNotFoundException: No Activity found to handle Intent { act=android.intent.action.VIEW dat=market://details?id=com.habitrpg.android.habitica }
+// Build Label: Android/sdk_google_phone_x86/generic_x86:6.0/MASTER/4212456:userdebug/test-keys
+// Build Changelist: 4212456
+// Build Time: 1500966718000
+// android.content.ActivityNotFoundException: No Activity found to handle Intent { act=android.intent.action.VIEW dat=market://details?id=com.habitrpg.android.habitica }
+// 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1798)
+// 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1512)
+// 	at android.app.Activity.startActivityForResult(Activity.java:3917)
+// 	at android.support.v4.app.BaseFragmentActivityJB.startActivityForResult(BaseFragmentActivityJB.java:50)
+// 	at android.support.v4.app.FragmentActivity.startActivityForResult(FragmentActivity.java:79)
+// 	at android.support.v4.app.ActivityCompatJB.startActivityForResult(ActivityCompatJB.java:30)
+// 	at android.support.v4.app.ActivityCompat.startActivityForResult(ActivityCompat.java:146)
+// 	at android.support.v4.app.FragmentActivity.startActivityFromFragment(FragmentActivity.java:932)
+// 	at android.support.v4.app.FragmentActivity$HostCallbacks.onStartActivityFromFragment(FragmentActivity.java:1047)
+// 	at android.support.v4.app.Fragment.startActivity(Fragment.java:940)
+// 	at android.support.v4.app.Fragment.startActivity(Fragment.java:929)
+// 	at com.habitrpg.android.habitica.ui.fragments.AboutFragment.openGooglePlay(AboutFragment.java:64)
+// 	at com.habitrpg.android.habitica.ui.fragments.AboutFragment_ViewBinding$6.doClick(AboutFragment_ViewBinding.java:81)
+// 	at butterknife.internal.DebouncingOnClickListener.onClick(DebouncingOnClickListener.java:22)
+// 	at android.view.View.performClick(View.java:5198)
+// 	at android.view.View$PerformClick.run(View.java:21147)
+// 	at android.os.Handler.handleCallback(Handler.java:739)
+// 	at android.os.Handler.dispatchMessage(Handler.java:95)
+// 	at android.os.Looper.loop(Looper.java:148)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5417)
+// 	at java.lang.reflect.Method.invoke(Native Method)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+// 
+** Monkey aborted due to error.
+Events injected: 4045
+## Network stats: elapsed time=57770ms (0ms mobile, 0ms wifi, 57770ms not connected)
+** System appears to have crashed at event 4045 of 100000 using seed 1504711417842
